@@ -5,14 +5,16 @@ public class ReverseString {
 
 	    public static void main(String[] args)
 	    {
-	        String str = "MyJava";
+	        String str = "Raghavan";
+	        str.toLowerCase();
 	 
 	        //1. Using StringBuffer Class
 	 
-	        StringBuffer sbf = new StringBuffer(str);
+	        StringBuffer sbf = new StringBuffer(str.toLowerCase());
 	 
 	        System.out.println(sbf.reverse());    //Output : avaJyM
-	 
+	       
+	        
 	        //2. Using iterative method
 	 
 	        char[] strArray = str.toCharArray();
